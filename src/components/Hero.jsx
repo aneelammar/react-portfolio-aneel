@@ -1,14 +1,14 @@
-import { ABOUT_TEXT, HERO_CONTENT } from "../constants"; // Importing text content
-import profilePic from "../assets/AneelProfile.png"; // Importing profile picture asset
-import { motion } from "framer-motion"; // Importing framer-motion for animations
+import { ABOUT_TEXT, HERO_CONTENT } from "../constants"; 
+import profilePic from "../assets/AneelProfile.png"; 
+import { motion } from "framer-motion"; 
 
 // Define reusable motion variants for text animations
 const textVariants = {
-  hidden: { x: -100, opacity: 0 }, // Initial state: hidden with offset to the left
+  hidden: { x: -100, opacity: 0 }, 
   visible: (delay = 0) => ({
-    x: 0, // Target state: aligned at origin
-    opacity: 1, // Fully visible
-    transition: { duration: 0.5, delay }, // Animation duration and delay
+    x: 0, 
+    opacity: 1,
+    transition: { duration: 0.5, delay }, 
   }),
 };
 
@@ -22,11 +22,11 @@ const Hero = () => {
           <div className="flex flex-col items-center lg:items-start">
             {/* Animated heading */}
             <motion.h1
-              variants={textVariants} // Apply text animation
-              initial="hidden" // Initial state of animation
-              animate="visible" // Target state of animation
-              custom={0} // No delay for the heading
-              viewport={{ once: true }} // Animation only triggers once on scroll
+              variants={textVariants}
+              initial="hidden" 
+              animate="visible" 
+              custom={0} 
+              viewport={{ once: true }} 
               className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl"
             >
               Aneel Amar
@@ -34,10 +34,10 @@ const Hero = () => {
 
             {/* Animated subheading */}
             <motion.span
-              variants={textVariants} // Apply text animation
+              variants={textVariants}
               initial="hidden"
               animate="visible"
-              custom={0.5} // Delay of 0.5 seconds
+              custom={0.5} 
               viewport={{ once: true }}
               className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-900 bg-clip-text text-2xl tracking-tight text-transparent"
             >
@@ -46,10 +46,10 @@ const Hero = () => {
 
             {/* Animated description */}
             <motion.p
-              variants={textVariants} // Apply text animation
+              variants={textVariants} 
               initial="hidden"
               animate="visible"
-              custom={1} // Delay of 1 second
+              custom={1} 
               viewport={{ once: true }}
               className="my-2 max-w-xl py-6 font-light tracking-tighter"
             >
@@ -63,12 +63,12 @@ const Hero = () => {
           <div className="flex justify-center">
             {/* Animated profile picture */}
             <motion.img
-              initial={{ x: 100, opacity: 0 }} // Starts offset to the right and hidden
-              animate={{ x: 0, opacity: 1 }} // Moves to origin and becomes visible
-              transition={{ duration: 1, delay: 1.2 }} // Animation duration and delay
-              className="rounded-2xl" // Tailwind class for rounded corners
-              src={profilePic} // Profile image source
-              alt="Aneel Amar's profile picture" // Alternative text for accessibility
+              initial={{ x: 100, opacity: 0 }} 
+              animate={{ x: 0, opacity: 1 }} 
+              transition={{ duration: 1, delay: 1.2 }} 
+              className="rounded-2xl" 
+              src={profilePic} 
+              alt="Aneel Amar's profile picture" 
             />
           </div>
         </div>

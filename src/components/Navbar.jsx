@@ -1,6 +1,5 @@
-// Import necessary assets and components
-import logo from "../assets/kevinRushLogo.png"; // Logo image
-import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa"; // Social media icons
+// Logo image
+import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa"; 
 
 const Navbar = () => {
   return (
