@@ -1,9 +1,21 @@
 import doit from "../assets/projects/doit.jpg"
 import BiteMe from "../assets/projects/BiteMe.jpg"
 
-export const HERO_CONTENT = `Motivated Junior Software Engineer with a solid understanding of the development lifecycle, adept at designing and delivering efficient, high-quality code. Skilled in problem-solving, team collaboration, and adapting to complex technical challenges to ensure successful project outcomes on schedule.`;
+export const HERO_CONTENT = `
+Motivated Junior Software Engineer with a passion for creating innovative solutions. I have a solid understanding of the software development lifecycle, and I am adept at designing and delivering efficient, high-quality code. 
 
-export const ABOUT_TEXT = `I am a dedicated and versatile Software Engineer with a passion for building efficient and user-friendly applications. My journey started with a curiosity for low-level programming and embedded systems, where I honed my skills in Linux and hardware integration. Over the years, I expanded my expertise to full-stack development, mastering technologies like React, Next.js, Node.js, MySQL, and MongoDB. I thrive in collaborative environments, solving complex problems, and delivering high-quality, scalable solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+I possess strong problem-solving skills and enjoy collaborating with teams to overcome complex technical challenges. My adaptability enables me to thrive in fast-paced environments, ensuring that projects are completed successfully and on schedule.
+
+Driven by continuous learning, I am always excited to explore new technologies and apply them to real-world challenges.`;
+
+export const ABOUT_TEXT = `
+I am a dedicated and versatile Software Engineer with a passion for building both efficient and user-friendly applications. My journey began with a deep curiosity for low-level programming and embedded systems, where I honed my skills in Linux, hardware integration, and system programming.
+
+Over the years, I expanded my expertise to full-stack development, mastering key technologies like React, Next.js, Node.js, MySQL, and MongoDB. I take pride in crafting solutions that not only meet the requirements but also scale with the growing needs of users and businesses.
+
+I thrive in collaborative environments where complex problems are broken down into actionable solutions. I enjoy tackling technical challenges and delivering high-quality software that makes an impact.
+
+Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects. Constantly learning and growing both professionally and personally is what drives me forward.`;
 
 export const EXPERIENCES = [
   {
