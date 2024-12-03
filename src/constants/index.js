@@ -3,7 +3,7 @@ import BiteMe from "../assets/projects/BiteMe.jpg"
 
 export const HERO_CONTENT = `Motivated Junior Software Engineer with a solid understanding of the development lifecycle, adept at designing and delivering efficient, high-quality code. Skilled in problem-solving, team collaboration, and adapting to complex technical challenges to ensure successful project outcomes on schedule.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile Software Engineer with a passion for creating efficient and user-friendly web applications. I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My expertise extends to low-level programming and embedded systems, with a strong foundation in Linux and its ecosystem. My journey in development began with a deep curiosity for how things work, and I thrive in collaborative environments where I can solve complex problems and deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile Software Engineer with a passion for building efficient and user-friendly applications. My journey started with a curiosity for low-level programming and embedded systems, where I honed my skills in Linux and hardware integration. Over the years, I expanded my expertise to full-stack development, mastering technologies like React, Next.js, Node.js, MySQL, and MongoDB. I thrive in collaborative environments, solving complex problems, and delivering high-quality, scalable solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
 export const EXPERIENCES = [
   {
