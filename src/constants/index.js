@@ -1,5 +1,6 @@
 import doit from "../assets/projects/doit.jpg"
 import BiteMe from "../assets/projects/BiteMe.jpg"
+import Finance from "../assets/projects/finance-tracker.jpg"
 
 export const HERO_CONTENT = `
 Motivated Junior Software Engineer with a passion for creating innovative solutions. I have a solid understanding of the software development lifecycle, and I am adept at designing and delivering efficient, high-quality code. 
@@ -45,6 +46,14 @@ export const PROJECTS = [
       "Designed and implemented an end-to-end solution for a food ordering system, Ensured proper system architecture and maintained high coding standards throughout the development process.",
     technologies: ["Java", "MySQL", "3-Tier Architecture", "OCSF Framework", "Eclipse"],
   },
+  {
+    title: "Finance Tracker — Personal finance management",
+    image: Finance,
+    description:
+      "Developed a comprehensive personal finance management web application to help users track and manage their financial records. The app allows users to input, categorize, and visualize their expenses and income, providing a clear overview of their financial health. Integrated an intuitive user interface with responsive design to ensure seamless experience across devices.",
+    technologies: ["React", "Node.js", "MongoDB", "Clerk", "CSS", "Express"],
+  },
+  
   
 ];
 
@@ -53,3 +62,4 @@ export const CONTACT = {
   phoneNo: "050-3081732",
   email: "aneelamar01@gmail.com",
 };
+
