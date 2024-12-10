@@ -22,18 +22,23 @@ const About = () => {
 
       {/* Content */}
       <div className="flex flex-wrap">
-        {/* Image Section */}
-        <motion.div
-          variants={containerVariants}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          className="w-full lg:w-1/2 lg:p-8"
-        >
-          <div className="flex items-center justify-center">
-            <img className="rounded-2xl" src={aboutImg} alt="About Me" />
-          </div>
-        </motion.div>
+          {/* Image Section */}
+          <motion.div
+    variants={containerVariants}
+    initial="hidden"
+    whileInView="visible"
+    viewport={{ once: true }}
+    className="w-full lg:w-1/2 lg:p-8"
+  >
+    <div className="flex items-center justify-center">
+      <img 
+        className="rounded-2xl w-80 h-80 object-cover" // Adjust size with w- and h-
+        src={aboutImg} 
+        alt="About Me" 
+      />
+    </div>
+  </motion.div>
+
 
         {/* Text Section */}
         <motion.div

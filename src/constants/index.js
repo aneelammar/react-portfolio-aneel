@@ -40,19 +40,20 @@ export const PROJECTS = [
     technologies: ["Flutter", "Firebase", "Google Maps API", "Android Studio", "Xcode"],
   },
   {
-    title: "BiteMe — Food ordering system",
-    image: BiteMe,
-    description:
-      "Designed and implemented an end-to-end solution for a food ordering system, Ensured proper system architecture and maintained high coding standards throughout the development process.",
-    technologies: ["Java", "MySQL", "3-Tier Architecture", "OCSF Framework", "Eclipse"],
-  },
-  {
     title: "Finance Tracker — Personal finance management",
     image: Finance,
     description:
       "Developed a comprehensive personal finance management web application to help users track and manage their financial records. The app allows users to input, categorize, and visualize their expenses and income, providing a clear overview of their financial health. Integrated an intuitive user interface with responsive design to ensure seamless experience across devices.",
     technologies: ["React", "Node.js", "MongoDB", "Clerk", "CSS", "Express"],
   },
+  {
+    title: "BiteMe — Food ordering system",
+    image: BiteMe,
+    description:
+      "Designed and implemented an end-to-end solution for a food ordering system, Ensured proper system architecture and maintained high coding standards throughout the development process.",
+    technologies: ["Java", "MySQL", "3-Tier Architecture", "OCSF Framework", "Eclipse"],
+  },
+
   
   
 ];

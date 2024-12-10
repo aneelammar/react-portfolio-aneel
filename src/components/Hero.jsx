@@ -58,20 +58,21 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* Right section: Profile image */}
-        <div className="w-full lg:w-1/2 lg:p-8">
-          <div className="flex justify-center">
-            {/* Animated profile picture */}
-            <motion.img
-              initial={{ x: 100, opacity: 0 }} 
-              animate={{ x: 0, opacity: 1 }} 
-              transition={{ duration: 1, delay: 1.2 }} 
-              className="rounded-2xl" 
-              src={profilePic} 
-              alt="Aneel Amar's profile picture" 
-            />
-          </div>
-        </div>
+{/* Right section: Profile image */}
+<div className="w-full lg:w-1/2 lg:p-8">
+  <div className="flex justify-center">
+    {/* Animated profile picture */}
+    <motion.img
+      initial={{ x: 100, opacity: 0 }} 
+      animate={{ x: 0, opacity: 1 }} 
+      transition={{ duration: 1, delay: 1.2 }} 
+      className="rounded-2xl w-80 h-80 object-cover" // Adjust w- and h- values as needed
+      src={profilePic} 
+      alt="Aneel Amar's profile picture" 
+    />
+  </div>
+</div>
+
       </div>
     </div>
   );
